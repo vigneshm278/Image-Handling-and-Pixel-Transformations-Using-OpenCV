@@ -223,10 +223,14 @@ plt.show()
 - **i)** Read and Display an Image
 - <img width="515" height="321" alt="Untitled" src="https://github.com/user-attachments/assets/2a790bb7-042e-4b94-9d33-56793228933c" />
 <img width="515" height="321" alt="Untitled-1" src="https://github.com/user-attachments/assets/f8af40fe-5041-4d4b-b86e-642d87c49abe" />
-<img width="515" height="321" alt="Untitled" src="https://github.com/user-attachments/assets/51a7547f-56d9-4ce8-a3e0-2
+<img width="515" height="321" alt="Untitled" src="https://github.com/user-attachments/assets/da474bca-8a8d-4efb-b01b-385223d7ef97" />
 <img width="515" height="321" alt="Untitled-1" src="https://github.com/user-attachments/assets/ae2cd866-5733-49ea-8ce8-db987a3fffc0" />
 7aea9db66ae" />
 <img width="515" height="321" alt="Untitled" src="https://github.com/user-attachments/assets/0e0cf2a6-9adc-464f-8329-43fd42ea6886" />
+
+
+
+
 - - **ii)** Modify Image Contrast.
 <img width="515" height="321" alt="Untitled-1" src="https://github.com/user-attachments/assets/e707397e-60b6-4801-90bc-f1d33b2673eb" />
 <img width="515" height="321" alt="Untitled" src="https://github.com/user-attachments/assets/b0e10f56-0df7-4993-ae37-a595c7dd7fb9" />
@@ -234,14 +238,14 @@ plt.show()
 <img width="515" height="321" alt="Untitled" src="https://github.com/user-attachments/assets/7fb55a87-f038-425b-921e-18dc670ea3f5" />
 <img width="515" height="321" alt="Untitled-1" src="https://github.com/user-attachments/assets/80b2b130-f1ad-4165-9be3-a0be585f0ad3" />
 
+
+
 - **iii)** Generate Third Image Using Bitwise Operations.
 - <img width="515" height="321" alt="Untitled-1" src="https://github.com/user-attachments/assets/47f81174-a661-499a-94ae-c253935963e1" />
 - <img width="493" height="411" alt="Untitled" src="https://github.com/user-attachments/assets/5850e864-6011-49c3-9714-c038c7a019fd" />
 <img width="389" height="411" alt="Untitled-1" src="https://github.com/user-attachments/assets/db77a653-6ac2-40e8-9c6f-ae83da08c91c" />
 <img width="515" height="321" alt="Untitled" src="https://github.com/user-attachments/assets/ce1f55dd-0fa6-421f-8352-f9dbea85dc48" />
 <img width="515" height="321" alt="Untitled-1" src="https://github.com/user-attachments/assets/5066ddb8-6d3f-431b-b661-41ae3c4148cd" />
-
-
 
 
 
