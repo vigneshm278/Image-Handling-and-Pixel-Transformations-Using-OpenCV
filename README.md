@@ -36,7 +36,7 @@ Split the image (boy.jpg) into B, G, R components and display the channels
 
   ### Ex. No. 01
 
-#### 1. Read the image ('Eagle_in_Flight.jpg') using OpenCV imread() as a grayscale image.
+#### 1. Read the image ('CAPTEN.jpg') using OpenCV imread() as a grayscale image.
 ```
 import cv2
 import numpy as np
@@ -72,7 +72,7 @@ img_rgb = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
 
 
 
-#### 6. Crop the image to extract any specific (Eagle alone) object from the image.
+#### 6. Crop the image to extract any specific (CAPTEN alone) object from the image.
 ```
 crop = img_rgb[0:450,200:550] 
 plt.imshow(crop[:,:,::-1])
@@ -96,7 +96,7 @@ plt.axis("off")
 ```
 
 
-#### 9. Read in the image ('Apollo-11-launch.jpg').
+#### 9. Read in the image ('CAPTEN.jpg').
 ```
 img=cv2.imread('Apollo-11-launch.jpg',cv2.IMREAD_COLOR)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -124,7 +124,7 @@ plt.show()
 ```
 
 
-#### 14. Read the image ('Boy.jpg').
+#### 14. Read the image ('CAPTEN.jpg').
 ```
 import cv2
 import numpy as np
@@ -151,7 +151,7 @@ img_darker   = cv2.subtract(boy_rgb, matrix)
 #### 17. Display the images (Original Image, Darker Image, Brighter Image).
 ```
 plt.figure(figsize=(12,4))
-plt.subplot(1,3,1); plt.imshow(boy_rgb); plt.title("Original"); plt.axis("off")
+plt.subplot(1,3,1); plt.imshow(CAPTEN_rgb); plt.title("Original"); plt.axis("off")
 plt.subplot(1,3,2); plt.imshow(img_darker); plt.title("Darker"); plt.axis("off")
 plt.subplot(1,3,3); plt.imshow(img_brighter); plt.title("Brighter"); plt.axis("off")
 plt.show()
@@ -169,14 +169,14 @@ img_higher2 = cv2.multiply(boy_rgb.astype("float32"), matrix2)
 #### 19. Display the images (Original, Lower Contrast, Higher Contrast).
 ```
 plt.figure(figsize=(12,4))
-plt.subplot(1,3,1); plt.imshow(boy_rgb); plt.title("Original"); plt.axis("off")
+plt.subplot(1,3,1); plt.imshow(CAPTEN_rgb); plt.title("Original"); plt.axis("off")
 plt.subplot(1,3,2); plt.imshow(img_higher1); plt.title("Higher Contrast (1.1x)"); plt.axis("off")
 plt.subplot(1,3,3); plt.imshow(img_higher2); plt.title("Higher Contrast (1.2x)"); plt.axis("off")
 plt.show()
 
 ```
 
-#### 20. Split the image (boy.jpg) into the B,G,R components & Display the channels.
+#### 20. Split the image (CAPTEN.jpg) into the B,G,R components & Display the channels.
 ```
 b, g, r = cv2.split(boy_rgb)
 
